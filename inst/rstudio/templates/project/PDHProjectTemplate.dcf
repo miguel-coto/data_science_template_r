@@ -1,5 +1,5 @@
 Binding: create_project
-Title: My First Project Template
+Title: PDH Project Template
 OpenFiles: README.md
 # In the project you can also add icons (the icon should be a PNG, smaller than 64kb
 # and in the inst/rstudio/templates folder
@@ -8,7 +8,7 @@ Icon: template_icon.png
 Parameter: folder
 Widget: SelectInput
 Label: Choose the scope of the project
-Fields: Production, Development
+Fields: Model, Other
 Default: Production
 Position: left
 
