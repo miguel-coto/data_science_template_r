@@ -29,7 +29,10 @@ create_project <-
       			  '.RData',
 			      '.Ruserdata',
 			      '.Rproj.user/',
-			      '.Renviron'
+			      '.Renviron',
+				  '.csv',
+				  '.xlsx',
+				  '.xls'
 			 )
 
 		  writeLines(paste(git_ignores, sep = '\n'), '.gitignore')
@@ -43,6 +46,8 @@ create_project <-
 	dir.create(file.path(path, "docs"))
 	dir.create(file.path(path, "test"))
 	dir.create(file.path(path, "reports"))
+	dir.create(file.path(path, "references"))
+	dir.create(file.path(path, "notebooks"))
 
 	# Check selected folder
 	if(dots[["folder"]] == "Model"){
