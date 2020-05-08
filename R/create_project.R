@@ -38,36 +38,38 @@ create_project <-
 		  writeLines(paste(git_ignores, sep = '\n'), '.gitignore')
 		}
 
-	dir.create(file.path(path, "data"))
-	dir.create(file.path(path, "data/raw"))
-	dir.create(file.path(path, "data/interim"))
-	dir.create(file.path(path, "data/processed"))
-	dir.create(file.path(path, "data/external"))
-	dir.create(file.path(path, "docs"))
-	dir.create(file.path(path, "test"))
-	dir.create(file.path(path, "reports"))
-	dir.create(file.path(path, "references"))
-	dir.create(file.path(path, "notebooks"))
+	writeLines('', 'requirements.txt')
+
+	dir.create("data")
+	dir.create("data/raw")
+	dir.create("data/interim")
+	dir.create("data/processed")
+	dir.create("data/external")
+	dir.create("docs")
+	dir.create("test")
+	dir.create("reports")
+	dir.create("references")
+	dir.create("notebooks")
 
 	# Check selected folder
 	if(dots[["folder"]] == "Model"){
 		#dir.create("production", recursive = TRUE, showWarnings = FALSE)
 		 # Create directories
-		dir.create(file.path(path, "models"))
-		#dir.create(file.path(path, "graphs"))
-		#dir.create(file.path(path, "utilities"))
-		dir.create(file.path(path, "src"))
-		dir.create(file.path(path, "src/utilities"))
-		dir.create(file.path(path, "src/data"))
-		dir.create(file.path(path, "src/features"))
-		dir.create(file.path(path, "src/models"))
-		dir.create(file.path(path, "src/visualization"))
+		dir.create("models")
+		#dir.create("graphs")
+		#dir.create("utilities")
+		dir.create("src")
+		dir.create("src/utilities")
+		dir.create("src/data")
+		dir.create("src/features")
+		dir.create("src/models")
+		dir.create("src/visualization")
 
 	} else {
 		#dir.create("development", recursive = TRUE, showWarnings = FALSE)
-		dir.create(file.path(path, "graphs"))
-		dir.create(file.path(path, "utilities"))
-		dir.create(file.path(path, "src"))
+		dir.create("graphs")
+		dir.create("utilities")
+		dir.create("src")
 
 	}
 
