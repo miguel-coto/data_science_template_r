@@ -19,7 +19,10 @@ _A logical, reasonably standardized, but flexible project structure for doing an
 ------------
 
 remotes::install_git(url = "https://miguelcotogarcia@dev.azure.com/miguelcotogarcia/PDH/_git/PDH", git = "external")
+ 
+or you can download the package and install it locally:
 
+remotes::install_local("<<path where you unzipped the package>>\\PDH\\rproject_template\\PDH", force = T)
 
 In Rstudio go to File, New Project, New Directory and look for the template *PDH Project Template*
 
