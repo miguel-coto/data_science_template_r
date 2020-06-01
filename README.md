@@ -18,13 +18,17 @@ _A logical, reasonably standardized, but flexible project structure for doing an
 ### To start a new project, run:
 ------------
 
+``` R console
 remotes::install_git(url = "https://miguelcotogarcia@dev.azure.com/miguelcotogarcia/PDH/_git/PDH", git = "external")
- 
+ ```
+
 or you can download the package and install it locally:
 
+``` R console
 remotes::install_local("<<path where you unzipped the package>>\\PDH\\rproject_template\\PDH", force = T)
+```
 
-In Rstudio go to File, New Project, New Directory and look for the template *PDH Project Template*
+In Rstudio restart the R session and go to File, New Project, New Directory and look for the template *PDH Project Template*
 
 
 ### The resulting directory structure
