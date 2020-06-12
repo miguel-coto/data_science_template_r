@@ -17,3 +17,9 @@ Widget: CheckboxInput
 Label: Create .gitignore
 Default: On
 Position: right
+
+Parameter: renv
+Widget: CheckboxInput
+Label: Use renv with this project
+Default: On
+Position: right

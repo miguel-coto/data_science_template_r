@@ -38,6 +38,12 @@ create_project <-
 		  writeLines(paste(git_ignores, sep = '\n'), '.gitignore')
 		}
 
+	if(dots[["renv"]]) {
+		require('renv')
+		renv::init()
+	}
+
+
 	writeLines('', 'requirements.txt')
 
 	dir.create("data")
