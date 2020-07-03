@@ -26,13 +26,15 @@ create_project <-
     			c(
 			      '.Rhistory',
 			      '.Rapp.history',
-      			  '.RData',
+      			  '*.RData',
 			      '.Ruserdata',
 			      '.Rproj.user/',
 			      '.Renviron',
-				  '.csv',
-				  '.xlsx',
-				  '.xls'
+				  '*.csv',
+				  '*.xlsx',
+				  '*.xls',
+				  '*.sas7bdat',
+				  '*.RDs'
 			 )
 
 		  writeLines(paste(git_ignores, sep = '\n'), '.gitignore')
