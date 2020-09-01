@@ -1,6 +1,6 @@
 # Data Science projects template
 
-_A logical, reasonably standardized, but flexible project structure for doing and sharing data science work (PDH version)._
+_A logical, reasonably standardized, but flexible project structure for doing and sharing data science work._
 
 
 #### [Project homepage](https://github.com/miguel-coto/data_science_template_r)
