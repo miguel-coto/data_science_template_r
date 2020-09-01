@@ -1,9 +1,9 @@
-# PDH Data projects template
+# Data Science projects template
 
 _A logical, reasonably standardized, but flexible project structure for doing and sharing data science work (PDH version)._
 
 
-#### [Project homepage](https://miguelcotogarcia@dev.azure.com/miguelcotogarcia/PDH/_git/PDH/)
+#### [Project homepage](https://github.com/miguel-coto/data_science_template_r)
 
 
 ### Requirements to use this template:
@@ -19,7 +19,7 @@ _A logical, reasonably standardized, but flexible project structure for doing an
 ------------
 
 ``` R console
-remotes::install_git(url = "https://miguelcotogarcia@dev.azure.com/miguelcotogarcia/PDH/_git/PDH", git = "external")
+remotes::install_git(url = "https://github.com/miguel-coto/data_science_template_r", git = "external")
  ```
 
 or you can download the package and install it locally:
