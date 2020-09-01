@@ -1,6 +1,6 @@
-Package: pdhProjectTemplate
+Package: DSProjectTemplate
 Type: Package
-Title: Data Analytics project template for PDH
+Title: Data Analytics project template for DS
 Version: 0.1.0
 Author: Miguel Coto Garcia
 Maintainer: Miguel Coto Garcia <miguel.cotogarcia@fiserv.com>
