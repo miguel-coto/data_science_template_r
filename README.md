@@ -25,7 +25,7 @@ remotes::install_git(url = "https://github.com/miguel-coto/data_science_template
 or you can download the package and install it locally:
 
 ``` R console
-remotes::install_local("<<path where you unzipped the package>>\\PDH\\rproject_template\\PDH", force = T)
+remotes::install_local("<<path where you unzipped the package>>\\rproject_template\\PDH", force = T)
 ```
 
 In Rstudio restart the R session and go to File, New Project, New Directory and look for the template *PDH Project Template*
